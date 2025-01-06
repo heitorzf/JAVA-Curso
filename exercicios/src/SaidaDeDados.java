@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class Main {
+public class SaidaDeDados {
 
 	public static void main(String[] args) {
 		String product1 = "Computer";
@@ -18,7 +18,7 @@ public class Main {
 		System.out.printf("Measue with eight decimal places: %f\nRouded (three decimal places): %.3f\n" , measure , measure );
 		Locale.setDefault(Locale.US);
 		System.out.printf("US decimal point: %.3f" , measure);
-	
+	    
 	}
 
 }
