@@ -8,13 +8,13 @@ public class Exercicio8 {
         for (int i = 0 ; i <= 3 ; i++){
            idade =  Integer.parseInt(JOptionPane.showInputDialog("Insira sua idade: "));
            if (idade <= 3) {
-           JOptionPane.showMessageDialog(null "Bebê");
+           JOptionPane.showMessageDialog(null , "Bebê");
            }
            else if (idade <= 11){
                JOptionPane.showMessageDialog(null , "Criança");
            }
            else if (idade <= 17){
-               JOptionPane.showMessageDialog(null , "Criança");
+               JOptionPane.showMessageDialog(null , "Adolescente");
            }
         }
     }
