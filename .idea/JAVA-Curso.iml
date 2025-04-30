@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/exercicios/src/CursoSATC" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicios/src/CursoSATC/entities" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/exercicios/src/CursoUdemy" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/exercicios/src/CursoUdemy/Secao12EnumeracaoComposicao/entities/enum" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
