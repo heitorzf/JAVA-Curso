@@ -1,4 +1,4 @@
-package heranca_e_polimorfismo.exemplos;
+package Secao12HerancaPolimorfismo.exemplos;
 
 public class BusinessAccount extends Account {
     private Double loanLimit;
