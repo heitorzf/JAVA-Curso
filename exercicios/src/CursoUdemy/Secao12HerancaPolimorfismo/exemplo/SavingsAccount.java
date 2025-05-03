@@ -1,11 +1,17 @@
-package Secao12HerancaPolimorfismo.exemplos;
+package Secao12HerancaPolimorfismo.exemplo;
 
-public class SavingsAccount extends Account{
+import Secao12HerancaPolimorfismo.exemplo.Account;
+
+public class SavingsAccount extends Account {
     private Double interestRate;
 
     public SavingsAccount(Integer number, String holder, Double balance, Double interestRate) {
         super(number, holder, balance);
         this.interestRate = interestRate;
+    }
+
+    public SavingsAccount() {
+
     }
 
     public Double getInterestRate() {
@@ -17,5 +23,10 @@ public class SavingsAccount extends Account{
     }
     public void updateBalance() {
         balance += balance * interestRate;
+    }
+
+    @Override // anotação
+    public void withdraw(double amount) {
+        balance -= amount; // implementação de forma diferente, sem a taxa,
     }
 }

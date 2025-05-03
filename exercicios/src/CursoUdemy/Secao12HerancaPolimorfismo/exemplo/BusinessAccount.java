@@ -1,4 +1,4 @@
-package Secao12HerancaPolimorfismo.exemplos;
+package Secao12HerancaPolimorfismo.exemplo;
 
 public class BusinessAccount extends Account {
     private Double loanLimit;
@@ -19,6 +19,13 @@ public class BusinessAccount extends Account {
         if (amount <= loanLimit) {
             balance += amount - 10;
         }
+
+
+    }
+    @Override // anotação
+    public void withdraw(double amount) {
+        super.withdraw(amount);
+        balance -= 2.0;
 
     }
 }

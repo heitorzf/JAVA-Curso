@@ -1,4 +1,4 @@
-package Secao12HerancaPolimorfismo.exemplos;
+package Secao12HerancaPolimorfismo.exemplo;
 
 public class Account {
     private Integer number;
@@ -38,7 +38,7 @@ public class Account {
         this.balance = balance;
     }
     public void withdraw(double amount) {
-        balance -= amount;
+        balance -= amount + 5;
     }
     public void deposit(double amount) {
         balance += amount;
